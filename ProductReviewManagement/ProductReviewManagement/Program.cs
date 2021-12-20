@@ -34,8 +34,8 @@ namespace ProductReviewManagement
             manage.SelectTopThreeRecords(ProductReviewlist);
             //UC3
             manage.RetrieveRecordsUsingRatingAndProductId(ProductReviewlist);
-
-
+            //UC4
+            manage.RetrieveCountOfRecords(ProductReviewlist);
         }
     }
 }
