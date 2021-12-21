@@ -23,7 +23,13 @@ namespace ProductReviewManagement
                 new ProductReview() { ProductID = 7, UserID = 7, Rating = 1, Review = "Ok", isLike = false },
                 new ProductReview() { ProductID = 8, UserID = 8, Rating = 2, Review = "Good", isLike = true },
                 new ProductReview() { ProductID = 9, UserID = 9, Rating = 4, Review = "Superb", isLike = true },
-                new ProductReview() { ProductID = 10, UserID = 10, Rating = 5, Review = "Outstanding", isLike = true }
+                new ProductReview() { ProductID = 10, UserID = 10, Rating = 5, Review = "Outstanding", isLike = true },
+                new ProductReview() { ProductID = 12, UserID = 11, Rating = 2, Review = "Good", isLike = true },
+                new ProductReview() { ProductID = 2, UserID = 10, Rating = 1, Review = "Ok", isLike = false },
+                new ProductReview() { ProductID = 6, UserID = 10, Rating = 2, Review = "Good", isLike = true },
+                new ProductReview() { ProductID = 8, UserID = 10, Rating = 1, Review = "Ok", isLike = false },
+                new ProductReview() { ProductID = 8, UserID = 10, Rating = 2, Review = "Good", isLike = true },
+
             };
             /*foreach (var item in ProductReviewlist)
             {
@@ -38,9 +44,10 @@ namespace ProductReviewManagement
             //manage.RetrieveCountOfRecords(ProductReviewlist);
             //UC5
             //manage.RetrieveProductIdAndReview(ProductReviewlist);
-            //UC5
-            manage.SkipTopFiveRecords(ProductReviewlist);
-            
+            //UC6
+            //manage.SkipTopFiveRecords(ProductReviewlist);
+            //UC8
+            manage.ProductReviewDataTable(ProductReviewlist);
         }
     }
 }
