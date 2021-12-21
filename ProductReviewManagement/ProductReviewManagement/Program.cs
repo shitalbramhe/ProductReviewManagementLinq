@@ -31,11 +31,13 @@ namespace ProductReviewManagement
             }*/
             Management manage = new Management();
             //UC2
-            manage.SelectTopThreeRecords(ProductReviewlist);
+            //manage.SelectTopThreeRecords(ProductReviewlist);
             //UC3
-            manage.RetrieveRecordsUsingRatingAndProductId(ProductReviewlist);
+            //manage.RetrieveRecordsUsingRatingAndProductId(ProductReviewlist);
             //UC4
-            manage.RetrieveCountOfRecords(ProductReviewlist);
+            //manage.RetrieveCountOfRecords(ProductReviewlist);
+            //UC5
+            manage.RetrieveProductIdAndReview(ProductReviewlist);
         }
     }
 }
