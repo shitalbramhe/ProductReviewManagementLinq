@@ -53,8 +53,9 @@ namespace ProductReviewManagement
             //UC10
             //manage.AverageProductId(ProductReviewlist);
             //UC11
-            manage.RetrieveRecordsWhereReviewnice(ProductReviewlist);
-            
+            //manage.RetrieveRecordsWhereReviewnice(ProductReviewlist);
+            //UC12
+            manage.RetrieveRecordsUserIdEqualToTen(ProductReviewlist);    
         }
     }
 }
