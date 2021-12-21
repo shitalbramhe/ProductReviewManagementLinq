@@ -49,7 +49,10 @@ namespace ProductReviewManagement
             //UC8
             //manage.ProductReviewDataTable(ProductReviewlist);
             //UC9
-            manage.RetrieveRecordsWhereIslikeTrue(ProductReviewlist);
+            //manage.RetrieveRecordsWhereIslikeTrue(ProductReviewlist);
+            //UC10
+            manage.AverageProductId(ProductReviewlist);
+
 
         }
     }
