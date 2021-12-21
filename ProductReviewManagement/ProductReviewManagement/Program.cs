@@ -47,7 +47,10 @@ namespace ProductReviewManagement
             //UC6
             //manage.SkipTopFiveRecords(ProductReviewlist);
             //UC8
-            manage.ProductReviewDataTable(ProductReviewlist);
+            //manage.ProductReviewDataTable(ProductReviewlist);
+            //UC9
+            manage.RetrieveRecordsWhereIslikeTrue(ProductReviewlist);
+
         }
     }
 }
